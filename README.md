@@ -233,6 +233,8 @@ pip install numpy pandas scipy torch
 
 ```bash
 python rl_mine_scheduler_stockpiling.py path/to/config.txt
+Example
+python "C:\Users\xyz\xyz\envs\geol-env\rl_mine_scheduler_stockpiling.py" "C:\Users\xyz\xyz\envs\geol-env\example_config.txt"
 ```
 
 If no config path is supplied, the script uses its built-in default path.
