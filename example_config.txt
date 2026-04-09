@@ -1,6 +1,6 @@
-txt_file_name_path=C:/Users/km923/.conda/envs/geol-env/New_txt_file.txt
-input_file_name_path=C:/Users/km923/.conda/envs/geol-env/block_model_realizations_3D_limited.csv
-output_file_name_path=C:/Users/km923/.conda/envs/geol-env/Res_RL_uncertiainty.xlsx
+txt_file_name_path=C:/Users/km923/.conda/envs/geol-env/example_config.txt
+input_file_name_path=C:/Users/km923/.conda/envs/geol-env/Example_data.csv
+output_file_name_path=C:/Users/km923/.conda/envs/geol-env/Output_rl_mine_scheduler_stockp.xlsx
 split_char=,
 price=9000
 #price per ton of pure metal
