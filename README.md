@@ -232,7 +232,7 @@ pip install numpy pandas scipy torch
 ### Run from command line
 
 ```bash
-python rl_scheduler_Mar_9_2026.py path/to/config.txt
+python rl_mine_scheduler_stockpiling.py path/to/config.txt
 ```
 
 If no config path is supplied, the script uses its built-in default path.
