@@ -1,0 +1,55 @@
+txt_file_name_path=C:/Users/km923/.conda/envs/geol-env/New_txt_file.txt
+input_file_name_path=C:/Users/km923/.conda/envs/geol-env/block_model_realizations_3D_limited.csv
+output_file_name_path=C:/Users/km923/.conda/envs/geol-env/Res_RL_uncertiainty.xlsx
+split_char=,
+price=9000
+#price per ton of pure metal
+refining_cost=3
+#refining cost per ton of concentrate sent to refinery
+mineral_density=2.7
+#ore mineral density
+waste_density=2.3
+#waste rock density
+cutoff=0.28
+#cutoof grade
+recovery=95
+#percent metal recovered in processing plant
+dis_rate=10
+#annual discount rate
+p_cost=10
+#processing cost per ton for ore sent to stockpile
+mining_cost=1
+#mining cost per ton
+rehandling_cost=1
+# used when material is reclaimed from the stockpiles
+slopes=[35,35,35,35]
+use_slope_precedence = 1
+slope_z_window_blocks = 3      # tune for speed/accuracy
+# slope angles in N, E, S, W direction correspondingly
+mining_capacity=3000000
+# hard constraint of mining capacity not to be exceeded, and material mined to the closest block value
+process_capacity=1000000
+# maximised (to increase NPV) with hard constraint of processed material capacity not to be exceeded
+minimum_mining_width_defined=40
+# constraint to maintain minimum mining width during a mining operation
+max_allowable_depth=3
+# constraint to not exceed max_allowable_depth of the number of blocks = (highest elevation at start of mining period minus lowest elevation at the end of mining period)/block elevation during any mining period
+max_allowable_depth_priority_indicator=0
+# indicator to treat max_allowable_depth as hard constraint if = 1 or soft constraint if = 0
+user_define_low_limit=0.8
+# processing plant lower limit of grade feed in plant
+user_define_up_limit=1.3
+# processing plant higher limit of grade feed in plant
+numb_of_stockpiles=3
+# number of stockpiles considered in the problem
+stockpiles=[(0.28,0.8),(0.8,2.5),(2.5,10)]
+# stockpile lower and higher grade for each stockpile
+stockpiles_capacity=[4500000,4500000,4500000]
+# maximum allowable capacity of tonnage stored in a stockpile 
+blender_mode = "rl_pure" 
+# blender mode selection to meet process feed grade limits i.e. "rl" (reinforcement learning) or "lp" 
+# (linear  programming) or rl_pure (pure reinforcement learning approach)
+solver_selection=1
+#Select #1 for SCIP  #2 for Gurobi in case of "lp" blender_mode
+Condition=0
+#apply minimum_mining_width_defined as hard constraint if Condition=1 and soft constraint if Condition=0
