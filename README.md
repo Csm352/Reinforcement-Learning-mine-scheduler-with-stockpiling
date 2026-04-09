@@ -1,6 +1,6 @@
 Camborne School of Mines University of Exeter
 Cite as:
-Muhammad, K., and Ortiz, J. M. (2026). Reinforcement learning based mine scheduling code with stockpiling option. Camborne School of Mines, University of Exeter, UK. Repository: https://github.com/Csm352/Reinforcement-Learning-mine-scheduler-with-stockpiling/
+Muhammad, K., and Ortiz, J. M. (2026). Reinforcement learning based mine scheduling code with stockpiling option. Camborne School of Mines, University of Exeter, UK.  https://github.com/Csm352/Reinforcement-Learning-mine-scheduler-with-stockpiling/
 
 # Reinforcement-Learning-mine-scheduler-with-stockpiling
 A two-agent (plant mine) reinforcement learning scheduler for open-pit mine planning with stockpiling and plant feed control is presented. The system schedules mining at the cluster rather than at the single-block level, while enforcing operational constraints: precedence, mining capacity, minimum mining width, and exposed-height limits. 
