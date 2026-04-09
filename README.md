@@ -49,12 +49,12 @@ The scheduler expects these columns in the input CSV:
 - `y_axis_len`
 - `z_axis_len`
 
-Strongly recommended optional columns:
+Recommended optional columns:
 
 - `precedence index`
 - `adjacent index`
 
-If `precedence index` or `adjacent index` are missing, the script will initialize them as empty lists.
+If `precedence index` or `adjacent index` are missing, the script will initialize them as empty lists and determine precedence blocks and adjancency by clustering.
 
 ---
 
