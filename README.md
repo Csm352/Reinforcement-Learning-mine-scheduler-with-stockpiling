@@ -325,22 +325,7 @@ This is the detailed block schedule. Each block is assigned a mining period in t
 
 ---
 
-## 11. Suggested repository structure
-
-```text
-repo/
-├── rl_mine_scheduler_stockpiling.py
-├── example_config.txt
-├── README.md
-├── sample_input/
-│   └── block_model_example.csv
-└── sample_output/
-    └── results_example.xlsx
-```
-
----
-
-## 12. Citation / acknowledgement
+## 11. Citation / acknowledgement
 
 If you use this repository in academic work, please cite the repository entry that accompanies this scheduler.
 
